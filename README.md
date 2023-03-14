@@ -12,9 +12,11 @@ Footer   : Amalia
 Animasi "Menyusul"
 Desain Responsif "Menyusul"
 
+Referensi       : https://www.kompasgramedia.com/
 Logo            : https://logoipsum.com/artwork/245
 Color Pallete   : https://colorhunt.co/palette/0a26471442722052952c74b3
 Font Family     : https://fonts.google.com/specimen/Poppins?query=poppins
+
 
 Header & Footer : Logo, Login, Artikel, Hubungi Kami
 Main            : Berita Utama
