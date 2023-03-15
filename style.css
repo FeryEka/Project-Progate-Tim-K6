@@ -52,7 +52,7 @@ header {
     background-position: center;
 }
 
-.container .hero {
+.hero {
     box-sizing: border-box;
     height: 100%;
     padding: 100px 50px 50px 50px;
@@ -111,7 +111,7 @@ body {
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
-    /* background-color: #f7f7f7; */
+    background-color: #f7f7f7;
     text-align: center;
 }
 
