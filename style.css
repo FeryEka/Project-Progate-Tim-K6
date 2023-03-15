@@ -1,3 +1,7 @@
+/* * {
+    outline: 1px solid red; //FIX
+} */
+
 /* Style Header */
 header {
     height: 65px;
@@ -50,28 +54,32 @@ header {
     background-image: url(./img/rumah.jpg);
     background-size: cover;
     background-position: center;
+    margin-top: 70px;
 }
 
-.hero {
+.container {
+    width: 1170px;
+    margin: 0px auto;
+    padding: 100px 0px 100px;
+}
+
+.container .hero {
     box-sizing: border-box;
     height: 100%;
     padding: 100px 50px 50px 50px;
-
     text-align: center;
-}
+  }
 
 .hero .judul {
     margin: 0 auto;
     width: 250px;
     background-color: #144272;
     border-radius: 4px;
-    position: relative;
     bottom: 5px;
 }
 .hero h1 {
     font-size: 48px;
     color: white;
-     
 }
 
 .hero .teks {
@@ -111,25 +119,28 @@ body {
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #f7f7f7;
     text-align: center;
+    background-color: #e6f9ff;
+}
+
+.lessons {
+    display: flex;
+    justify-content: center;
 }
 
 .lesson {
-    float: left;
     width: 25%;
 }
 
 .lesson-icon {
-    position: relative;
     height: 250px;
     margin-right: 5px;
     overflow: hidden;
   }
   
 .lesson-icon img {
-    width: 100%;
-    height: 100%;
+    width: 280px;
+    height: 280px;
     object-fit: cover;
     transition: transform .3s ease;
 }
@@ -147,7 +158,7 @@ body {
 
 /* Style Form */
 .form{
-    padding-top: 300px;
+    padding: 1px;
     background-color: #e6f9ff;
     border-radius: 4px;
 }
