@@ -32,6 +32,10 @@ header {
     color: #0A2647;
 }
 
+.header-right a:hover {
+    background-color: #2C74B3;
+}
+
 .header-right a {
     line-height: 65px;
     padding: 0 25px;
@@ -218,6 +222,11 @@ body {
 }
 
 /* Style footer */
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 .footer {
     background-color: #2C74B3;
     color: #fff;
@@ -229,7 +238,16 @@ body {
     float: left;
     font-size: 30px;
 }
+
+.footer-logo-img {
+    width: 125px;
+    display: inline;
+}
   
 .footer-list {
     float: right;
 }
+
+.footer-list li {
+    padding-bottom: 10px;
+  }
