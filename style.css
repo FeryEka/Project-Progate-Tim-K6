@@ -137,6 +137,10 @@ body {
     width: 25%;
 }
 
+.lesson p {
+    margin-left: 25px;
+}
+
 .lesson-icon {
     height: 250px;
     margin-right: 5px;

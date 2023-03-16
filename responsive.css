@@ -36,11 +36,17 @@
   .container .hero {
     width: 100%;
     top: 150px;
+    text-align: center;
+    margin-left: 0px;
   }
 
   .lesson {
     width: 100%;
   }
+
+  .lesson p {
+    margin-left: 35px;
+}
 
   .submit-button{
     width: 50%;
