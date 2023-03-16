@@ -250,4 +250,8 @@ footer {
 
 .footer-list li {
     padding-bottom: 10px;
-  }
+}
+
+.footer-list li:hover {
+    color: #a3a3a3;
+}
